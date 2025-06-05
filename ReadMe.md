@@ -73,18 +73,21 @@ GEMINI_API_KEY=your_gemini_api_key
 ▶️ Running the App
 
 python app.py
+
 Visit the app in your browser: http://127.0.0.1:5000
 
 Console output example:
 
 * Running on [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
 Running scheduled follow-up...
+
 Follow-up sent.
 
 📨 Sample Email
 Subject:
-
 Follow-up on Data Analyst Application at Acme Inc
+
 Body:
 
 Hi John Doe,
