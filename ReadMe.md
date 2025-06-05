@@ -36,11 +36,12 @@ email_followup_agent/
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone [https://github.com/yourusername/email-followup-agent.git](https://github.com/yourusername/email-followup-agent.git)
 cd email_followup_agent
-2. Create & Activate a Virtual Environment
-Bash
+
+## 2. Create & Activate a Virtual Environment
+
 
 python -m venv env
 
@@ -49,18 +50,18 @@ env\Scripts\activate
 
 # On Mac/Linux
 source env/bin/activate
-3. Install Dependencies
+## 3. Install Dependencies
 Bash
 
 pip install -r requirements.txt
-4. Set Up Gmail API
+## 4. Set Up Gmail API
 Visit Google Cloud Console.
 Create a new project.
 Enable the Gmail API.
 Configure the OAuth Consent Screen.
 Create an OAuth 2.0 Client ID (Type: Desktop).
 Download credentials.json and place it in the project root directory.
-5. Create .env File
+## 5. Create .env File
 Create a file named .env in the project root and add your secret keys:
 
 FLASK_SECRET_KEY=your_flask_secret_key
@@ -68,7 +69,6 @@ GEMINI_API_KEY=your_gemini_api_key
 ⚠️ Do not commit .env, credentials.json, or token.json to version control.
 
 ▶️ Running the App
-Bash
 
 python app.py
 Visit the app in your browser: http://127.0.0.1:5000
@@ -78,6 +78,7 @@ Console output example:
 * Running on [http://127.0.0.1:5000](http://127.0.0.1:5000)
 Running scheduled follow-up...
 Follow-up sent.
+
 📨 Sample Email
 Subject:
 
@@ -92,6 +93,7 @@ Looking forward to hearing from you.
 
 Best regards,
 John Doe
+
 🔁 APScheduler Setup
 For testing (runs every 60 seconds):
 
