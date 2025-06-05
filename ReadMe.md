@@ -39,8 +39,9 @@ Copy code
 ```bash
 git clone https://github.com/yourusername/email-followup-agent.git
 cd email_followup_agent
-2. Create & Activate a Virtual Environment
 bash
+2. Create & Activate a Virtual Environment
+
 Copy code
 python -m venv env
 On Windows:
