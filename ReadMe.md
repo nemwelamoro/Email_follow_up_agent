@@ -36,8 +36,9 @@ email_followup_agent/
 
 ### 1. Clone the Repository
 
-
-git clone [https://github.com/yourusername/email-followup-agent.git](https://github.com/yourusername/email-followup-agent.git)
+```
+git clone [https://github.com/yourusername/email-followup-agent.git]
+```
 cd email_followup_agent
 
 ## 2. Create & Activate a Virtual Environment
