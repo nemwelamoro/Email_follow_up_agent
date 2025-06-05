@@ -45,10 +45,10 @@ cd email_followup_agent
 
 python -m venv env
 
-# On Windows
+On Windows
 env\Scripts\activate
 
-# On Mac/Linux
+On Mac/Linux
 source env/bin/activate
 ## 3. Install Dependencies
 Bash
